@@ -11,14 +11,15 @@ This repository contains a data analysis and cleaning project focused on shark a
 - [Project Structure](#project-structure)
 - [Data Cleaning](#data-cleaning)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
-- [Visualization](#visualization)
 
-## Data Source
+## Data Source<a id="data-source"></a>
 
 The shark attack data used in this project is obtained from [https://www.kaggle.com/datasets/teajay/global-shark-attacks], which provides comprehensive information about shark attacks worldwide. The dataset is in [CSV format](data/shark_attacks.csv) and includes various attributes such as date, location, species, and more.
 
-## Project Structure
-shark-attacks-analysis/
+## Project Structure<a id="project-structure"></a>
+
+```plaintext
+ark-attacks-analysis/
 │
 ├── data/
 │   ├── shark_attacks.csv
@@ -29,9 +30,6 @@ shark-attacks-analysis/
 │
 ├── README.md
 └──LICENSE
-
-
-
-## Data Cleaning
-## Exploratory Data Analysis
-## Visualization
+```
+## Data cleaning<a id="data-cleaning"></a>
+## Exploratory Data Analysis<a id="exploratory-data-analysis"></a>
