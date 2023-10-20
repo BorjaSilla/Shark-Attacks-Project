@@ -1,5 +1,5 @@
 # Shark Attacks Data Analysis & Cleaning Project 🦈
-![Shark Attacks](https://pbs.twimg.com/media/Evd38PZWgAISr6d.jpg:large)
+![Shark Attacks](https://static.vecteezy.com/system/resources/previews/006/484/778/original/cleaning-service-shark-mascot-illustration-free-vector.jpg)
 
 ## Overview
 
