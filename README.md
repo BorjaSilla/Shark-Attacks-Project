@@ -1,5 +1,5 @@
 # Shark Attacks Data Analysis & Cleaning Project 🦈
-![Shark Attacks](/static/header.png)
+<img src="/static/header-circle.png" width="50%" />
 
 ## Overview
 
