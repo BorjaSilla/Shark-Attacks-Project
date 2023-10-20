@@ -1,7 +1,7 @@
 # Shark Attacks Data Analysis & Cleaning Project 🦈
 
 <p align="center">
-  <img src="/static/header-circle.png" width="50%" />
+  <img src="/static/shark.png" width="60%" />
 </p>
 
 
