@@ -23,14 +23,14 @@ The shark attack data used in this project is obtained from [https://www.kaggle.
 ## Project Structure<a id="project-structure"></a>
 
 ```plaintext
-ark-attacks-analysis/
+shark-attacks-analysis/
 │
 ├── data/
 │   ├── shark_attacks.csv
 │
 ├── notebooks/
 │   ├── Data_Cleaning.ipynb
-│   ├── Exploratory_Data_Analysis.ipynb
+│   ├── EDA.ipynb
 │
 ├── README.md
 └──LICENSE
