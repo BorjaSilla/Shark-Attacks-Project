@@ -17,7 +17,7 @@ This repository contains a data analysis and cleaning project focused on shark a
 
 ## Data Source<a id="data-source"></a>
 
-The shark attack data used in this project is obtained from [https://www.kaggle.com/datasets/teajay/global-shark-attacks], which provides comprehensive information about shark attacks worldwide. The dataset is in [CSV format](data/shark_attacks.csv) and includes various attributes such as date, location, species, and more.
+The (messy) shark attack data used in this project is obtained from [Kaggle](https://www.kaggle.com/datasets/teajay/global-shark-attacks), which provides information about shark attacks worldwide (A very, veryy, **VEEERY** dirty dataset). The dataset is in **CSV format** and includes various attributes such as date, location, species, and more.
 
 ## Project Structure<a id="project-structure"></a>
 
@@ -31,9 +31,7 @@ shark-attacks-analysis/
 ├── notebooks/
 │   ├── Data_Cleaning.ipynb
 │   
-│
-├── README.md
-└──LICENSE
+└── README.md
 ```
 
 ## Data cleaning<a id="data-cleaning"></a>
@@ -80,16 +78,16 @@ Fixed all the `NaN` values with `unknown` or `0` on the corresponding columns
 
 #### 5. Incorrect values
 
-- 1. First I took care of the `year` column, removing the `str` values from the column and the records earlier than `1700` which we can do since they were a small amount of records.
-- 2. Normalized `type` column into `5 ` categories.
-- 3. Normalized `country` column and removed errors.
-- 4. Normalized `activity` column with a dictionary and fuzzywuzzy library.
-- 5. Normalized `name` column.
-- 6. Normalized `sex` column.
-- 7. Normalized `age` column.
-- 8. Normalized `species` column with fuzzywuzzy library.
-- 9. Splitted `date` column into `year`, `month` and `day`.
-- 10. Normalized `fatal` column.
+- First I took care of the `year` column, removing the `str` values from the column and the records earlier than `1700` which we can do since they were a small amount of records.
+- Normalized `type` column into `5 ` categories.
+- Normalized `country` column and removed errors.
+- Normalized `activity` column with a dictionary and fuzzywuzzy library.
+- Normalized `name` column.
+- Normalized `sex` column.
+- Normalized `age` column.
+- Normalized `species` column with fuzzywuzzy library.
+- Splitted `date` column into `year`, `month` and `day`.
+- Normalized `fatal` column.
 
 #### 6. Exporting clean dataset
 
@@ -98,7 +96,7 @@ Exported the clean dataset into the `data` folder.
 ## [Tableau Dashboard](https://public.tableau.com/app/profile/borja.sg/viz/SharkAttackDashboard_16980809984600/SharkAttacksDashboard) 👈
 
 
-I used **Tableau** to present the insights as an **interactive dashboard** answering 5 interesting questions:
+I used <a id="tableau-EDA">Tableau</a> to present the insights as an **interactive dashboard** answering 5 interesting questions:
 
 - 🦈 **Shark Species Analysis**: Dive into the world of shark species with a breakdown of which species are responsible for the most attacks. Explore data on the fatal rate and the total number of attacks by each species.
 
@@ -110,4 +108,10 @@ I used **Tableau** to present the insights as an **interactive dashboard** answe
 
 - 🕵 **Annual Attack Trends**: This section of the dashboard offers a historical perspective, allowing you to track changes over time.
 
-Check it out: [SHARKS ATTACK DASHBOARD](https://public.tableau.com/app/profile/borja.sg/viz/SharkAttackDashboard_16980809984600/SharkAttacksDashboard) 👈
+Check it out in [Tableau Public](https://public.tableau.com/app/profile/borja.sg/viz/SharkAttackDashboard_16980809984600/SharkAt)🔗
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://www.linkedin.com/in/borjasg/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/borjasg/" height="30" width="40" /></a>
+</p>
+
