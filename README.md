@@ -111,5 +111,3 @@ I used **Tableau** to present the insights as an **interactive dashboard** answe
 - 🕵 **Annual Attack Trends**: This section of the dashboard offers a historical perspective, allowing you to track changes over time.
 
 Check it out: [SHARKS ATTACK DASHBOARD](https://public.tableau.com/app/profile/borja.sg/viz/SharkAttackDashboard_16980809984600/SharkAttacksDashboard) 👈
-f Fatal Attacks: A simple % indicator of Fatal Attacks
-
