@@ -4,7 +4,6 @@
   <img src="/static/shark.png" width="60%" />
 </p>
 
-
 ## Overview
 
 This repository contains a data analysis and cleaning project focused on shark attacks. The project aims to explore and analyze shark attack data, clean and preprocess the dataset, and provide insights and visualizations regarding shark attacks worldwide.
@@ -36,8 +35,11 @@ shark-attacks-analysis/
 ├── README.md
 └──LICENSE
 ```
+
 ## Data cleaning<a id="data-cleaning"></a>
-#### 1. Understanding the data 
+
+#### 1. Understanding the data
+
 First, I tried to understand the dataframe and make sense out of every column before establishing an objective.
 
 - `Case Number`: unique identifier for the incident. In more recent data, it primarily consists of date values in the format yyyy.mm.dd.
@@ -63,25 +65,42 @@ First, I tried to understand the dataframe and make sense out of every column be
 - `Case Number 2`: Another duplicate of the 'Case Number' column.
 - `Original Order`: Represents the order in which the attacks were originally registered.
 - `Unnamed 22` & `Unnamed 23`: These columns appear to contain NaN (empty) values and do not have any specific data.
+
 #### 2. Normalize columns
+
 Standarized the columns, made them all lowercase
+
 #### 3. Remove duplicated rows
+
 Removed all the duplicated rows, which were `19441`
+
 #### 4. Remove duplicated rows
+
 Fixed all the `NaN` values with `unknown` or `0` on the corresponding columns
+
 #### 5. Incorrect values
-- 1) First I took care of the `year` column, removing the `str` values from the column and the records earlier than `1700` which we can do since they were a small amount of records.
-- 2) Normalized `type` column into `5 ` categories.
-- 3) Normalized `country` column and removed errors.
-- 4) Normalized `activity` column with a dictionary and fuzzywuzzy library.
-- 5) Normalized `name` column.
-- 6) Normalized `sex` column.
-- 7) Normalized `age` column.
-- 8) Normalized `species` column with fuzzywuzzy library.
-- 9) Splitted `date` column into `year`, `month` and `day`.
-- 10) Normalized `fatal` column.
+
+- 1. First I took care of the `year` column, removing the `str` values from the column and the records earlier than `1700` which we can do since they were a small amount of records.
+- 2. Normalized `type` column into `5 ` categories.
+- 3. Normalized `country` column and removed errors.
+- 4. Normalized `activity` column with a dictionary and fuzzywuzzy library.
+- 5. Normalized `name` column.
+- 6. Normalized `sex` column.
+- 7. Normalized `age` column.
+- 8. Normalized `species` column with fuzzywuzzy library.
+- 9. Splitted `date` column into `year`, `month` and `day`.
+- 10. Normalized `fatal` column.
+
 #### 6. Exporting clean dataset
+
 Exported the clean dataset into the `data` folder.
 
-
 ## Exploratory Data Analysis<a id="exploratory-data-analysis"></a>
+
+As for the EDA I used Tableau as it is the most interactive way to display the insights.
+
+- 1. Species vs Fatal: A complete view of the shark species information, displaying fatal rate and amount of attacks
+- 2. Activity Category and Sex stacked bar chart: A visualization showcasing the amount of attacks per activity category and sex.
+- 3. Time of the Day heatmap: A heatmap displaying the amount of attacks % per timeframe
+- 4. Attacks per Year: A line chart with the amount of attacks per year.
+- 5. Percentage of Fatal Attacks: A simple % indicator of Fatal Attacks
