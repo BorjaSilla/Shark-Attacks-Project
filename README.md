@@ -13,7 +13,7 @@ This repository contains a data analysis and cleaning project focused on shark a
 - [Data Source](#data-source)
 - [Project Structure](#project-structure)
 - [Data Cleaning](#data-cleaning)
-- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Tableau Dashboard](#tableau-EDA)
 
 ## Data Source<a id="data-source"></a>
 
@@ -30,7 +30,7 @@ shark-attacks-analysis/
 │
 ├── notebooks/
 │   ├── Data_Cleaning.ipynb
-│   ├── EDA.ipynb
+│   
 │
 ├── README.md
 └──LICENSE
@@ -95,12 +95,21 @@ Fixed all the `NaN` values with `unknown` or `0` on the corresponding columns
 
 Exported the clean dataset into the `data` folder.
 
-## Exploratory Data Analysis<a id="exploratory-data-analysis"></a>
+## [Tableau Dashboard](https://public.tableau.com/app/profile/borja.sg/viz/SharkAttackDashboard_16980809984600/SharkAttacksDashboard) 👈
 
-As for the EDA I used **Tableau** as it is the most interactive way to display the insights.
 
-- 1. Species vs Fatal: A complete view of the shark species information, displaying fatal rate and amount of attacks
-- 2. Activity Category and Sex stacked bar chart: A visualization showcasing the amount of attacks per activity category and sex.
-- 3. Time of the Day heatmap: A heatmap displaying the amount of attacks % per timeframe
-- 4. Attacks per Year: A line chart with the amount of attacks per year.
-- 5. Percentage of Fatal Attacks: A simple % indicator of Fatal Attacks
+I used **Tableau** to present the insights as an **interactive dashboard** answering 5 interesting questions:
+
+- 🦈 **Shark Species Analysis**: Dive into the world of shark species with a breakdown of which species are responsible for the most attacks. Explore data on the fatal rate and the total number of attacks by each species.
+
+- 🕒 **Attack Timing Heatmap**: Discover when shark attacks are most likely to occur with the intuitive heatmap. This visual representation showcases the percentage of attacks within different timeframes, helping you understand the patterns.
+
+- 🏄 **Activity and Gender Analysis**: Gain insights into which activities and genders are at higher risk of shark attacks. Our analysis delves into the statistics to provide a comprehensive view of the data.
+
+- 👨‍👨‍👦‍👦 **Age Group Vulnerability**: Explore which age groups are more vulnerable to shark attacks. The dashboard breaks down the data to help you understand the demographics of those affected.
+
+- 🕵 **Annual Attack Trends**: This section of the dashboard offers a historical perspective, allowing you to track changes over time.
+
+Check it out: [SHARKS ATTACK DASHBOARD](https://public.tableau.com/app/profile/borja.sg/viz/SharkAttackDashboard_16980809984600/SharkAttacksDashboard) 👈
+f Fatal Attacks: A simple % indicator of Fatal Attacks
+
