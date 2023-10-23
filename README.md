@@ -108,7 +108,7 @@ I used <a id="tableau-EDA">Tableau</a> to present the insights as an **interacti
 
 - 🕵 **Annual Attack Trends**: This section of the dashboard offers a historical perspective, allowing you to track changes over time.
 
-Check it out in [Tableau Public](https://public.tableau.com/app/profile/borja.sg/viz/SharkAttackDashboard_16980809984600/SharkAt)🔗
+Check it out in [Tableau Public](https://public.tableau.com/app/profile/borja.sg/viz/SharkAttackDashboard_16980809984600/SharkAttacksDashboard)🔗
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
