@@ -97,7 +97,7 @@ Exported the clean dataset into the `data` folder.
 
 ## Exploratory Data Analysis<a id="exploratory-data-analysis"></a>
 
-As for the EDA I used Tableau as it is the most interactive way to display the insights.
+As for the EDA I used **Tableau** as it is the most interactive way to display the insights.
 
 - 1. Species vs Fatal: A complete view of the shark species information, displaying fatal rate and amount of attacks
 - 2. Activity Category and Sex stacked bar chart: A visualization showcasing the amount of attacks per activity category and sex.
