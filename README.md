@@ -30,7 +30,7 @@ shark-attacks-analysis/
 │
 ├── notebooks/
 │   ├── Data_Cleaning.ipynb
-│   
+│
 └── README.md
 ```
 
@@ -81,7 +81,7 @@ Fixed all the `NaN` values with `unknown` or `0` on the corresponding columns
 - First I took care of the `year` column, removing the `str` values from the column and the records earlier than `1700` which we can do since they were a small amount of records.
 - Normalized `type` column into `5 ` categories.
 - Normalized `country` column and removed errors.
-- Normalized `activity` column with a dictionary and fuzzywuzzy library.
+- Normalized `activity` column with extractOne (fuzzywuzzy).
 - Normalized `name` column.
 - Normalized `sex` column.
 - Normalized `age` column.
@@ -94,7 +94,6 @@ Fixed all the `NaN` values with `unknown` or `0` on the corresponding columns
 Exported the clean dataset into the `data` folder.
 
 ## [Tableau Dashboard](https://public.tableau.com/app/profile/borja.sg/viz/SharkAttackDashboard_16980809984600/SharkAttacksDashboard) 👈
-
 
 I used <a id="tableau-EDA">Tableau</a> to present the insights as an **interactive dashboard** answering 5 interesting questions:
 
@@ -114,4 +113,3 @@ Check it out in [Tableau Public](https://public.tableau.com/app/profile/borja.sg
 <p align="left">
 <a href="https://www.linkedin.com/in/borjasg/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/borjasg/" height="30" width="40" /></a>
 </p>
-
